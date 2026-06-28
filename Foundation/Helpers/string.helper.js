@@ -1,4 +1,4 @@
-import { IsNullOrEmpty } from "./validation.helper";
+import { IsNullOrEmpty } from "./validation.helper.js";
 
 export const ReturnValidString = (x) => !IsNullOrEmpty(x) ? String(x) : '';
 

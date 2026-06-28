@@ -1,4 +1,5 @@
-import {lowerCase,upperCase,sentenceCase,titleCase,camelCase,pascalCase,snakeCase,kebabCase } from "./string.helper";
+import {lowerCase,upperCase,sentenceCase,titleCase,camelCase,pascalCase,snakeCase,kebabCase } 
+from "./string.helper.js";
 
 export const normalizeKey = (key, type = "lower", separator = "") => ({
   lower: lowerCase,

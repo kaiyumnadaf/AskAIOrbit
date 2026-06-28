@@ -2,6 +2,7 @@
   "name": "ask-ai-orbit",
   "version": "1.0.2",
   "description": "enterprise orbit ai",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
