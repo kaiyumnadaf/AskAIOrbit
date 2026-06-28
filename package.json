@@ -1,0 +1,24 @@
+{
+  "name": "@kaiyumnadaf/ask-ai-orbit",
+  "version": "1.0.0",
+  "description": "enterprise orbit ai",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiyumnadaf/AskAIOrbit.git"
+  },
+  "keywords": [
+    "backend",
+    "application",
+    "framework"
+  ],
+  "author": "Kaiyum Nadaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiyumnadaf/AskAIOrbit/issues"
+  },
+  "homepage": "https://github.com/kaiyumnadaf/AskAIOrbit#readme"
+}
