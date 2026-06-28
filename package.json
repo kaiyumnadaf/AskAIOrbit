@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/kaiyumnadaf/AskAIOrbit/issues"
   },
-  "homepage": "https://github.com/kaiyumnadaf/AskAIOrbit#readme"
+  "homepage": "https://github.com/kaiyumnadaf/AskAIOrbit#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
 }
