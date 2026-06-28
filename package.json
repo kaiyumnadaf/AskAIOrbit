@@ -1,6 +1,6 @@
 {
   "name": "ask-ai-orbit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "enterprise orbit ai",
   "main": "app.js",
   "scripts": {
