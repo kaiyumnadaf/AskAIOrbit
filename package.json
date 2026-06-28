@@ -1,5 +1,5 @@
 {
-  "name": "@kaiyum/ask-ai-orbit",
+  "name": "ask-ai-orbit",
   "version": "1.0.1",
   "description": "enterprise orbit ai",
   "main": "app.js",
