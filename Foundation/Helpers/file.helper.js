@@ -6,7 +6,11 @@ export const createFile = async (folder, filename, data = "") => (
   fs.promises.writeFile(path.join(folder, filename), data)
 );
 
-export const createFolder = async path => (await fs.promises.mkdir(path, { recursive: true }),path);
+export const createFolder = async (path, mode = 0o777) => (
+  await fs.promises.mkdir(path, { recursive: true, mode }),
+  await fs.promises.chmod(path, mode).catch(() => {}),
+  path
+);
 
 export const fileExists = path => fs.existsSync(path);
 export const folderExists = path => fs.existsSync(path);
