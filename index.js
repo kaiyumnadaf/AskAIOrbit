@@ -17,7 +17,10 @@ import * as Cloud from "./Cloud/index.js";
 
 const Orbit = {
     version: "1.0.1",
+
+    // Direct shortcut
     Helpers: Foundation.Helpers,
+
     Core,
     Foundation,
     Database,
