@@ -1,5 +1,5 @@
 import  path from "path";
-import fs from "fs/promises";
+import fs from "fs";
 
 export const createFile = async (folder, filename, data = "") => (
   await fs.promises.mkdir(folder, { recursive: true }),
